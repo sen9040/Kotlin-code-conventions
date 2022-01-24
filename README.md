@@ -172,6 +172,7 @@ Kotlin Style Guide
 
 #### Drawables
 - WHAT_DESCRIPTION_SIZE
+- SIZE 생략 가능
 - ic, img, draw....(예: ic_push_24dp)
 
 #### Dimensions
