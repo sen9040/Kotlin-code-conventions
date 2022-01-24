@@ -149,34 +149,34 @@ Kotlin Style Guide
 - 상수 이름에는 UPPER_SNAKE_CASE(모두 대문자)를 사용하며 밑줄로 단어를 구분합니다.  
 
 ### 리소스 룰 
-- <WHAT>_<WHERE>_<DESCRIPTION>_<SIZE>
+- WHAT_WHERE_DESCRIPTION_SIZE
 - 단점 리펙토링 자동 미지원
-  - <WHAT> 리소스가 실제로 무엇을 나타내는지 (예:MainActivity -> activity)
-  - <WHERE> 속하는 위치를 설명 (에: MainActivity -> main)
-  - <DESCRIPTION> 한 화면에서 여러 요소를 구분 (예: title)
-  - <SIZE> 정확한 크기 또는 드로어블 및 치수 (예: 24dp,small)
+  - WHAT 리소스가 실제로 무엇을 나타내는지 (예:MainActivity - activity)
+  - WHERE 속하는 위치를 설명 (에: MainActivity - main)
+  - DESCRIPTION 한 화면에서 여러 요소를 구분 (예: title)
+  - SIZE 정확한 크기 또는 드로어블 및 치수 (예: 24dp,small)
   
 #### Layout 
-- <WHAT>_<WHERE>.xml
+- WHAT_WHERE.xml
 - activity, fragment, view, item, layout (예: activity_main.xml)
 
 #### XML View Ids
-- <WHAT>_<DESCRIPTION>  or <WHAT>_<WHERE>_<DESCRIPTION>
-- xml view 이름은 약어로 사용한다. (예: TextView -> tv)
-- <DESCRIPTION> 중복될경우 <WHERE> 을 추가하여 명확히 사용한다.
+- WHAT_DESCRIPTION  or WHAT_WHERE_DESCRIPTION
+- xml view 이름은 약어로 사용한다. (예: TextView - tv)
+- DESCRIPTION 중복될경우 WHERE 을 추가하여 명확히 사용한다.
 - (예: tv_title, tv_menu_title)
 
 #### Strings
-- <WHERE>_<DESCRIPTION>
-- 공통적인 문자열은 <WHERE> 에 all 또는 common을 사용 (예: article_title, common_number)
+- WHERE_DESCRIPTION
+- 공통적인 문자열은 WHERE 에 all 또는 common을 사용 (예: article_title, common_number)
 
 #### Drawables
-- <WHERE>_<DESCRIPTION>_<SIZE>
+- WHERE_DESCRIPTION_SIZE
 - 공통 이미지는 all, common 을 사용 (예: title_icon_24dp)
 
 #### Dimensions
-- <WHAT>_<WHERE>_<DESCRIPTION>_<SIZE>
-- <WHAT> 은 width, height, size, margin....같은 것들이 들어갈 수 있다.(예: margin_menu_profileimage_24dp)
+- WHAT_WHERE_DESCRIPTION_SIZE
+- WHAT 은 width, height, size, margin....같은 것들이 들어갈 수 있다.(예: margin_menu_profileimage_24dp)
  
 
 ### 열거형
