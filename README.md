@@ -171,8 +171,8 @@ Kotlin Style Guide
 - 공통적인 문자열은 WHERE 에 all 또는 common을 사용 (예: article_title, common_number)
 
 #### Drawables
-- WHERE_DESCRIPTION_SIZE
-- 공통 이미지는 all, common 을 사용 (예: title_icon_24dp)
+- WHAT_DESCRIPTION_SIZE
+- ic, img, draw....(예: ic_push_24dp)
 
 #### Dimensions
 - WHAT_WHERE_DESCRIPTION_SIZE
